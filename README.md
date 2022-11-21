@@ -6,11 +6,11 @@ This repository holds explorations of tweets regarding Indigenous Americans. The
 - Hashtags applied
 - Cashtags
 
-The work in this repository is a pet project of mine. As a Native woman, particularly one who is often mistaken as being of some other mixed heritage, I'm curious to learn more about the online interactions within and around the Indigenous community. 
+The work in this repository is a pet project of mine. As a Native woman, I'm curious to learn more about the online interactions within and around the Indigenous community. 
 
-Once I've collected and analyzed enough data, I will create a tableau dashboard to summarize my findings.
+[In-progress Tableau visualization](https://public.tableau.com/views/IndigenousTweetExploration/Dashboard-OverallTweetFeatures?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
 
 ## Packages Used
 
-To scrape twitter, I used the twint package. The bulk of the NLP work in this project will be done by spaCy, emot, and contractions. Visualizations will be  done using plotly as much as possible. Otherwise, this project will rely on typical imports such as pandas, re, string, 
+To scrape twitter, I used the twint package. The bulk of the NLP work in this project was done by gensim, spaCy, demoji, and contractions. Visualizations within the linked kaggle notebook were done using plotly for basic charts. To generate the topic modeling visualizations, I used pyLDAvis.
